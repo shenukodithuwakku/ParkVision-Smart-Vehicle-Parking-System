@@ -1,0 +1,2 @@
+[31-Jul-2026 09:19:09 Asia/Colombo] Entry processing error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.owner_phone' in 'field list'
+[31-Jul-2026 09:19:27 Asia/Colombo] Entry processing error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.owner_phone' in 'field list'

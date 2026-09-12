@@ -1,0 +1,10 @@
+Place your YOLOv8 license-plate-detector weights file here, named:
+
+    license_plate_detector.pt
+
+If this file is absent, plate_recognition.py automatically falls back
+to a fixed-region OCR mode so the demo still works end-to-end, but
+detection accuracy will be much lower. Search "YOLOv8 license plate
+detector weights" (e.g. on Roboflow Universe or Hugging Face) for a
+ready-trained model, or train your own with ultralytics on a plate
+dataset.

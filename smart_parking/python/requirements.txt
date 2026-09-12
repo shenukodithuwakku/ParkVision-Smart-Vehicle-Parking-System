@@ -1,0 +1,12 @@
+# Python dependencies for the entry-gate plate recognition script.
+# Install with:  pip install -r requirements.txt
+#
+# Tested with Python 3.10/3.11. EasyOCR will download its recognition
+# model weights (~70 MB) the first time it runs, so the first start
+# needs an internet connection even though normal operation does not.
+
+ultralytics>=8.1.0      # YOLOv8 object detection
+easyocr>=1.7.1           # OCR for reading the plate text
+opencv-python>=4.9.0.80  # camera capture + image processing
+numpy>=1.26.0
+requests>=2.31.0
